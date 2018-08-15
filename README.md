@@ -21,3 +21,11 @@ How to run:
 
 ### In case of big number of bams and/or low memory capacity, the program can be run as following:
 
+#### 1. Bootstraping, one time:
+        SWEEP_GOLD BOOTSTRAP -vcf [-len]
+#### 2. procssing bams, for every single bam:
+        SWEEP_GOLD RAW -vcf -bam [-o]
+#### 3. filteration, one time otherwise if you want to test differnt maf and/or depth:
+        SEEP_GOLD FILTER -vcf -bam -o [-maf] [-dep]
+        
+
