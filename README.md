@@ -4,10 +4,12 @@ An updated version of https://github.com/jclev-uga/SWEEP
 How to run:
 
     SWEEP_GOLD -bam -vcf -o [-len] [-maf] [-dep]
-## **-bam**: a list of bam files
-## **-vcf**: a vcf input file
-#-o: output file
-#-len: sequence lengh
+    
+    **-bam**: a list of bam files
+
+**-vcf**: a vcf input file
+-o: output file
+-len: sequence lengh
 #-maf: minor allele frequencey
 #-dep: depth
 
