@@ -17,5 +17,7 @@ How to run:
 
 **-dep**: depth
 
-The program requires ~1-2 Gb for basic process and ~0.5-1  GB ber every bam file (varied based on the depth and the reference genome size).
-In case of big number of bams and/or low memory capacity, the program can be run as following:
+## The program requires ~1-2 Gb for basic process and ~0.5-1  GB ber every bam file (varied based on the depth and the reference genome size).
+
+## In case of big number of bams and/or low memory capacity, the program can be run as following:
+
