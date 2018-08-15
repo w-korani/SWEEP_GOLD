@@ -5,17 +5,17 @@ How to run:
 
     SWEEP_GOLD -bam -vcf -o [-len] [-maf] [-dep]
     
-**-bam**: a list of bam files
+**-bam**: a list of bam files [Required]
 
-**-vcf**: a vcf input file
+**-vcf**: a vcf input file [Required]
 
-**-o**: output file
+**-o**: output file [Required]
 
-**-len**: sequence lengh
+**-len**: sequence lengh [Optional, default=300]
 
-**-maf**: minor allele frequencey
+**-maf**: minor allele frequencey [Optional, default=5]
 
-**-dep**: depth
+**-dep**: depth [Optional, default=5]
 
 ### The program requires ~1-2 Gb for basic process and ~0.5-1  GB ber every bam file (varied based on the depth and the reference genome size).
 
@@ -25,7 +25,7 @@ How to run:
         SWEEP_GOLD BOOTSTRAP -vcf [-len]
 **vcf**: input vcf file [Required] 
 
-**len**: sequence length [Optional]
+**len**: sequence length [Optional, default=300]
 
 #### 2. procssing bams, for every single bam:
         SWEEP_GOLD RAW -vcf -bam [-o]
