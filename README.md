@@ -23,6 +23,8 @@ How to run:
 
 #### 1. Bootstraping, one time:
         SWEEP_GOLD BOOTSTRAP -vcf [-len]
+##### **vcf**: input vcf file        
+
 #### 2. procssing bams, for every single bam:
         SWEEP_GOLD RAW -vcf -bam [-o]
 #### 3. filteration, one time otherwise if you want to test differnt maf and/or depth:
