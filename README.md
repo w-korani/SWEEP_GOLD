@@ -23,7 +23,9 @@ How to run:
 
 #### 1. Bootstraping, one time:
         SWEEP_GOLD BOOTSTRAP -vcf [-len]
-##### **vcf**: input vcf file        
+**vcf**: input vcf file [Required] 
+
+**len**: sequence length [Optional]
 
 #### 2. procssing bams, for every single bam:
         SWEEP_GOLD RAW -vcf -bam [-o]
