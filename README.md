@@ -19,6 +19,8 @@ How to run:
 
 ### The program requires ~1-2 Gb for basic process and ~0.5-1  GB ber every bam file (varied based on the depth and the reference genome size).
 
+![sweep2](https://user-images.githubusercontent.com/21265433/44159774-77c10380-a086-11e8-89a0-31b75155b364.jpg)
+
 #######################################################################
 
 ### In case of big number of bams and/or low memory capacity, the program can be run as following:
@@ -50,7 +52,6 @@ How to run:
 
 **-dep**: depth [Optional, default=5]
 
-![sweep](https://user-images.githubusercontent.com/21265433/44159256-dd13f500-a084-11e8-9855-3df919e8ab7e.jpg)
-
+![sweep1](https://user-images.githubusercontent.com/21265433/44159781-7abbf400-a086-11e8-8320-3334b1d78af0.jpg)
 ##################################################################
 
