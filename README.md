@@ -23,12 +23,19 @@ How to run:
 
 #### 1. Bootstraping, one time:
         SWEEP_GOLD BOOTSTRAP -vcf [-len]
-**vcf**: input vcf file [Required] 
+**-vcf**: input vcf file [Required] 
 
-**len**: sequence length [Optional, default=300]
+**-len**: sequence length [Optional, default=300]
+
 
 #### 2. procssing bams, for every single bam:
         SWEEP_GOLD RAW -vcf -bam [-o]
+**-vcf**: input vcf file [Required] 
+
+**-bam**: an input bam file [Required]
+
+**-o**: output .raw file [Optional, default=input bam file
+
 #### 3. filteration, one time otherwise if you want to test differnt maf and/or depth:
         SEEP_GOLD FILTER -vcf -bam -o [-maf] [-dep]
         
