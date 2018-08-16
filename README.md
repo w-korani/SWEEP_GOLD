@@ -2,6 +2,7 @@
 An updated version of https://github.com/jclev-uga/SWEEP
 
 How to run:
+## I. Full run:
 
     SWEEP_GOLD -bam -vcf -o [-len] [-maf] [-dep]
     
@@ -25,6 +26,7 @@ How to run:
 
 ### In case of big number of bams and/or low memory capacity, the program can be run as following:
 
+## II. Splitted run:
 #### 1. Bootstraping, one time:
         SWEEP_GOLD BOOTSTRAP -vcf [-len]
 **-vcf**: input vcf file [Required] 
@@ -54,4 +56,5 @@ How to run:
 
 ![image](https://user-images.githubusercontent.com/21265433/44171420-2de91500-a0a8-11e8-802a-ebd79bfaf365.png)
 #################################################################
+# III. combined run: the outputs of the full run of sweep, can be used into splitted run. **however, -len should be the same**.
 
