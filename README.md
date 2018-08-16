@@ -57,7 +57,8 @@ How to run:
 ![image](https://user-images.githubusercontent.com/21265433/44171420-2de91500-a0a8-11e8-802a-ebd79bfaf365.png)
 #################################################################
 # III. combined run: 
-the outputs of the full run of sweep, can be used into splitted run. **however, -len should be the same**.
+the outputs of the full run can be used into splitted run. **however, -len should be the same**.
 
 ![sweep3](https://user-images.githubusercontent.com/21265433/44222453-85dc5600-a152-11e8-9997-735f2c84b43d.jpg)
+################################################################
 
