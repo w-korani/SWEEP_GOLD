@@ -1,5 +1,5 @@
 # SWEEP_GOLD
-An updated version of https://github.com/jclev-uga/SWEEP
+A vastly improved version of https://github.com/jclev-uga/SWEEP
 
 How to run:
 ## I. Full run:
@@ -10,22 +10,22 @@ How to run:
 
 **-vcf**: a vcf input file [Required]
 
-**-o**: output file [Required]
+**-o**: output file prefix [Required]
 
-**-len**: sequence lengh [Optional, default=300]
+**-len**: lengh of sequence reads [Optional, default=300]
 
-**-maf**: minor allele frequencey [Optional, default=5]
+**-maf**: minor allele frequencey filter [Optional, default=5]
 
-**-dep**: depth [Optional, default=5]
+**-dep**: minimum depth to accept a haplotype [Optional, default=5]
 
-### The program requires ~1-2 Gb for basic process and ~0.5-1  GB ber every bam file (varied based on the depth and the reference genome size).
+### The program requires ~1-2 Gb RAM for basic process and ~0.5-1 GB RAM ber every bam file (varies based on the depth and the reference genome size).
 
 ![image](https://user-images.githubusercontent.com/21265433/44171352-01cd9400-a0a8-11e8-80c0-bea17c0d873e.png)
 
 #######################################################################
 
-## II. Splitted run:
-#### In case of big number of bams and/or low memory capacity, the program can be run as following:
+## II. Split run:
+#### In case of big number of bams and/or low memory capacity, the program can be run as follows:
 
 #### 1. Bootstraping, one time:
         SWEEP_GOLD BOOTSTRAP -vcf [-len]
@@ -42,7 +42,8 @@ How to run:
 
 **-o**: output .raw file [Optional, default=input bam file]
 
-#### 3. filteration, one time otherwise if you want to test differnt maf and/or depth:
+
+#### 3. filtration, one time otherwise if you want to test differnt maf and/or depth:
         SEEP_GOLD FILTER -vcf -bam -o [-maf] [-dep]
 **-vcf**: input vcf file [Required] 
 
@@ -57,7 +58,7 @@ How to run:
 ![image](https://user-images.githubusercontent.com/21265433/44171420-2de91500-a0a8-11e8-802a-ebd79bfaf365.png)
 #################################################################
 # III. combined run: 
-the outputs of the full run can be used into splitted run. **however, -len should be the same**.
+the outputs of the full run can be used into split run. **however, -len should be the same**.
 
 ![sweep3](https://user-images.githubusercontent.com/21265433/44222453-85dc5600-a152-11e8-9997-735f2c84b43d.jpg)
 ################################################################
