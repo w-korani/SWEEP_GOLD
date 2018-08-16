@@ -24,9 +24,9 @@ How to run:
 
 #######################################################################
 
-### In case of big number of bams and/or low memory capacity, the program can be run as following:
-
 ## II. Splitted run:
+#### In case of big number of bams and/or low memory capacity, the program can be run as following:
+
 #### 1. Bootstraping, one time:
         SWEEP_GOLD BOOTSTRAP -vcf [-len]
 **-vcf**: input vcf file [Required] 
