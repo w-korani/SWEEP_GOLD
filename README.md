@@ -1,5 +1,5 @@
 # SWEEP_GOLD
-A vastly improved version of https://github.com/jclev-uga/SWEEP
+A vastly improved version of https://github.com/jclev-uga/SWEEP for refinement SNP calling of polypoids from NGS data
 
 How to run:
 ## I. Full run:
