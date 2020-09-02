@@ -44,12 +44,12 @@ How to run:
 
 
 #### 3. filtration, one time otherwise if you want to test differnt maf and/or depth:
-        SEEP_GOLD FILTER -vcf -bam -o [-maf] [-dep]
+        SWEEP_GOLD FILTER -vcf -bam -o [-maf] [-dep]
 **-vcf**: input vcf file [Required] 
 
 **-bam**: an input bam.raw file list, wildcards can be used inside the list [Required]
 
-**-o**: output .raw file [Required]
+**-o**: output .vcf file [Required]
 
 **-maf**: minor allele frequencey [Optional, default=5]
 
